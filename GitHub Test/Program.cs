@@ -12,6 +12,14 @@ namespace GitHub_Test
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("Commit 2");
+            Console.WriteLine();
+            Console.Write("Geben Sie etwas ein: ");
+            string ui = Console.ReadLine();
+
+            Console.WriteLine($"Ihre Eingabe: {ui}");
+
+            Console.WriteLine("\nDas Programm ist zuende, drücken Sie eine belibige Taste um es zu beenden.");
+            Console.ReadLine();
         }
     }
 }
